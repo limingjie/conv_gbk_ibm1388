@@ -8,7 +8,7 @@ Here is a small footprint fast solution which eliminates dependency to ICU.
 ## GBK encoding
 - 1 byte - `0xxx xxxx` - `0x00 ~ 0x7f` - Compatible with ASCII
 - 2 bytes - `1xxx xxxx  1xxx xxxx` - Chinese
-The most significant bit is used to identify 1 or 2 bytes encoding.
+- The most significant bit is used to identify 1 or 2 bytes encoding.
 
 ## IBM1388 encoding
 - 1 byte - Compatible with EBCDIC
