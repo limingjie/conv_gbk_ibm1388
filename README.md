@@ -1,7 +1,7 @@
 # GBK/IBM1388 charset conversion
 GBK is the main simplified Chinese charset used on PC, while IBM1388 is on mainframe.
-The 2 charsets are not directly interchangable by manipulating bits like what Unicode could do between UTF-8 and UTF-16;
-and they are base on different encoding (ASCII/EBCDIC) with different way to compitable with their bases.
+The 2 charsets are not directly interchangeable by manipulating bits like what Unicode could do between UTF-8 and UTF-16;
+and they are base on different encoding (ASCII/EBCDIC) with different way to compatible with their bases.
 ICU (http://site.icu-project.org/) supports both charsets, but has a huge footprint.
 Here is a small footprint fast solution.
 
